@@ -1,0 +1,23 @@
+name: nexo
+description: Nexo — OpenAI-Compatible Multi-Provider AI Chat App for Android.
+publish_to: 'none'
+version: 1.4.0+108
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.1
+  shared_preferences: ^2.2.3
+  flutter_markdown: ^0.7.1
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
